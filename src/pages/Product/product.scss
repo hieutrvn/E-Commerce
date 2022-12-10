@@ -1,0 +1,98 @@
+.product {
+    padding:110px 100px 40px;
+    display: flex;
+    .left {
+        flex: 1;
+        display: flex;
+        .images {
+            flex: 2;
+            img{
+                width: 200px;
+                margin-bottom: 5px;
+                cursor: pointer;
+                object-fit: cover;
+            }
+        }
+
+        .mainImg{
+            flex: 5;
+            margin-left: 10px;
+            
+            img{
+                width: 418px;
+                max-height: 100%;
+                object-fit: cover;
+                margin-right: 9px;
+            }
+        }
+    }
+
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 50px;
+        letter-spacing: .5px;
+        h1{
+            font-size: 22px;
+            font-weight: 500;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 300;
+            color: gray;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .quantity{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            gap: 15px;
+            button{
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .add{
+            width: 310px;
+            height: 48px;
+            border: 1px solid #000;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 400;
+
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+
+        .details{
+
+            span{
+                font-size: 16px;
+                font-weight: 400;
+            }
+            p{  
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}

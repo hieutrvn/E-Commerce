@@ -1,0 +1,22 @@
+.featuredProduct {
+    margin: 20px 50px;
+
+    .title {
+        text-align: center;
+        
+        h1{
+            font-style: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .featuredItem {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+
+    }
+}
